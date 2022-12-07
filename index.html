@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1d9edba87f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Shopping List</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shopping List</h1>
+      <form action="" class="form">
+        <input type="text" class="input" />
+        <button type="submit" class="submitBtn">Submit</button>
+      </form>
+      <ul class="items">
+        <li class="itemRow">
+          <div class="item">
+            <span class="span">milk</span>
+            <div class="button-group">
+              <button class="editBtn">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="deleteBtn">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <button class="clearBtn">Clear Items</button>
+    </div>
+  </body>
+</html>

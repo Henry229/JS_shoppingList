@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ced3df;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+}
+.container {
+  width: 30rem;
+  background: white;
+  margin: 5rem auto;
+  padding: 2rem 2rem;
+  border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.form {
+  width: 100%;
+  margin: 0;
+  /* margin: 1rem auto; */
+}
+
+.input {
+  width: 80%;
+  height: 2rem;
+  background: #e3f1f7;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.submitBtn {
+  height: 2rem;
+  background: #9ed6ed;
+  border-radius: 0 7px 7px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem auto;
+}
+
+.span {
+  font-size: 1.2rem;
+}
+
+.editBtn {
+  color: green;
+  transition: transform 300ms ease-in;
+}
+
+.editBtn:hover {
+  transform: scale(1.2);
+}
+
+.deleteBtn {
+  color: red;
+  transition: transform 300ms ease-in;
+}
+
+.deleteBtn:hover {
+  transform: scale(1.2);
+}
+
+.clearBtn {
+  color: red;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
