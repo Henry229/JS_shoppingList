@@ -2,6 +2,7 @@ const form = document.querySelector('.form');
 const items = document.querySelector('.items');
 const input = document.querySelector('.input');
 const submitBtn = document.querySelector('.submitBtn');
+const clearBtn = document.querySelector('.clearBtn');
 let toBeEdited = '';
 let update = false;
 
@@ -126,3 +127,12 @@ items.addEventListener('click', (event) => {
     input.innerText = input.value;
   }
 });
+
+const onClear = () => {
+  const itemRows = document.querySelectorAll('.itemRow');
+  itemRows.forEach((itemRow) => {
+    itemRow.remove();
+  });
+};
+
+clearBtn.addEventListener('click', onClear);
